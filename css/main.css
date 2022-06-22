@@ -170,7 +170,7 @@ textarea {
     width: 50%;
   }
 
-  features p {
+  .features p {
     margin: 0;
   }
 
@@ -263,7 +263,7 @@ textarea {
     flex-flow: row wrap;
   }
 
-  faq .content-wrapper {
+  .faq content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
