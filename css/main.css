@@ -624,6 +624,7 @@ address {
 
     .features h2 {
       margin-bottom: 20px;
+      line-height: 1.333;
     }
 
     .features article {
@@ -691,6 +692,12 @@ address {
       justify-content: space-between;
     }
 
+    footer .social-icons p i {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
     footer .copyright {
       width: 100%;
     }
@@ -708,6 +715,10 @@ address {
   
     .mission-content p {
       width: 45%;
+    }
+
+    .map figure {
+      padding-bottom: 45.5%;
     }
   
     .contact-section .content-wrapper h2 {
@@ -755,6 +766,7 @@ address {
   }
 
   .content-wrapper {
+    margin: 40px 0;
     max-width: 960px;
   }
 
@@ -775,6 +787,7 @@ address {
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
+    width: 100%
 }
 
   /* Aside */
@@ -802,12 +815,13 @@ address {
   }
   
   /* Reviews */
-  .reviews article div {
-    width: 42%;
-  }
 
   .reviews h2 {
     padding-bottom: 40px;
+  }
+
+  .reviews article div {
+    width: 42%;
   }
 
   footer h4 {
@@ -817,10 +831,13 @@ address {
   /* ==========================================================================
   About Page
   ========================================================================== */
+  .map figure {
+    padding-bottom: 37.5%;
+  }
 
   .mission h2,
   .contact-section .content-wrapper h2 {
-      width: 95%;
+      width: 100%;
       font-size: 3em;
   }
 
